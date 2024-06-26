@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly Mode - Kosmetische Dienstleistungen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei Fly Mode</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#services">Dienstleistungen</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Kosmetische Dienstleistungen für Ihr Wohlbefinden</h2>
+        <p>Erleben Sie professionelle Kosmetikbehandlungen bei Fly Mode.</p>
+    </section>
+    <section id="services">
+        <h2>Unsere Dienstleistungen</h2>
+        <ul>
+            <li>Browlifting: 40 min oder 60 min</li>
+            <li>Wimpernlifting: 50 min oder 60 min</li>
+            <li>Kosmetik all in: 70 min oder 90 min</li>
+            <li>Maniküre: 50 min oder 60 min</li>
+            <li>Pediküre: 50 min oder 60 min</li>
+            <li>Microblading: wird bald angeboten</li>
+        </ul>
+        <p>Buchen Sie Ihren Termin bei uns vor Ort oder bei Ihnen zu Hause.</p>
+    </section>
+    <section id="about">
+        <h2>Über Fly Mode</h2>
+        <p>Fly Mode bietet hochwertige kosmetische Dienstleistungen an. Unser erfahrenes Team sorgt für Ihr Wohlbefinden.</p>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+        <p>Adresse: Musterstraße 1, 12345 Musterstadt</p>
+        <p>Öffnungszeiten: Mo-Fr 9:00 - 18:00</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fly Mode. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
